@@ -1,5 +1,8 @@
-#include "Sweep.dtsi"
+#include "Totem.dtsi"
 
+&default_transform { 
+    col-offset = <6>;
+};
 
 &kscan0 {
     col-gpios
@@ -11,8 +14,9 @@
             ;
 };
 
-&encoder_left {
+&encoder_right {
     status = "okay";
 };
+
 
 
