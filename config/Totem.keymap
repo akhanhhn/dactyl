@@ -86,20 +86,6 @@
 
             tap-ms = <20>;
         };
-
-        mouse_DU: mouse_DU {
-            compatible = "zmk,behavior-sensor-rotate";
-            label = "MOUSE_DU";
-            #sensor-binding-cells = <0>;
-            bindings = <&mmv MOVE_DOWN>, <&mmv MOVE_UP>;
-        };
-
-        mouse_RL: mouse_RL {
-            compatible = "zmk,behavior-sensor-rotate";
-            label = "MOUSE_RL";
-            #sensor-binding-cells = <0>;
-            bindings = <&mmv MOVE_RIGHT>, <&mmv MOVE_LEFT>;
-        };
     };
 
     keymap {
@@ -114,7 +100,7 @@
 &kp LSHFT  &kp LCTRL  &kp LALT  &kp LGUI  &kp ENTER  &kp ENTER  &kp LGUI  &kp LALT   &kp LCTRL  &kp RSHFT
             >;
 
-            sensor-bindings = <&Scroll_D_U>, <&Scroll_D_U>;
+            sensor-bindings = <&Scroll_D_U>, <&Scroll_U_D>;
         };
 
         lower_layer {
