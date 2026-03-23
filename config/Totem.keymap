@@ -98,6 +98,7 @@
 &kp A          &kp S         &kp D      &kp F      &kp G      &kp H      &kp J     &kp K      &kp L      &kp SEMI
 &kp Z          &kp X         &kp C      &kp V      &kp B      &kp N      &kp M     &kp COMMA  &kp DOT    &kp FSLH
 &mt LSHFT ESC  &kp LEFT_ALT  &kp SPACE  &kp LCTRL  &kp ENTER  &kp ENTER  &kp LGUI  &kp LALT   &kp LCTRL  &kp RSHFT
+&trans         &trans        &trans     &trans     &trans     &trans     &trans    &trans     &trans     &trans
             >;
 
             sensor-bindings = <&Scroll_D_U>, <&Scroll_U_D>;
@@ -110,6 +111,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+    
             >;
 
             sensor-bindings =
