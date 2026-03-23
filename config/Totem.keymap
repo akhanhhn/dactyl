@@ -96,7 +96,7 @@
             key-positions = <33 32 30>;
         };
 
-        boot {
+        boot2 {
             bindings = <&bootloader>;
             key-positions = <36 37 39>;
         };
