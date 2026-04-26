@@ -14,4 +14,4 @@ I made mistakes and damaged several components while building this keyboard. If 
 #5 way Navigation switch
 
 #Custom layout - #Custom shields - #Custom design
-![Totem Keymap](keymap-drawer/Totem.svg)
+![dactyl Keymap](keymap-drawer/dactyl.svg)

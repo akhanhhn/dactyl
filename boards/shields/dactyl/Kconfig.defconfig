@@ -1,15 +1,15 @@
-if SHIELD_Totem_LEFT
+if SHIELD_dactyl_LEFT
 
 # Name must be less than 16 characters long!
 config ZMK_KEYBOARD_NAME
-    default "Totem"
+    default "dactyl"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
 endif
 
-if SHIELD_Totem_LEFT || SHIELD_Totem_RIGHT
+if SHIELD_dactyl_LEFT || SHIELD_dactyl_RIGHT
 
 config ZMK_SPLIT
     default y

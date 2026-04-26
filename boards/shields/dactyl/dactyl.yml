@@ -1,8 +1,8 @@
 file_format: "1"
-id: Sweep
-name: Sweep
+id: dactyl
+name: dactyl
 type: shield
-url: https://github.com/Haha1609/Totem
+url: https://github.com/Haha1609/Michila
 type: board
 arch: arm
 output:
@@ -14,7 +14,7 @@ features:
   - pointer
   - encoder
 siblings:
-  - Sweep_left
-  - Sweep_right
+  - dactyl_left
+  - dactyl_right
 
   
