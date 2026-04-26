@@ -1,5 +1,4 @@
 
-I made mistakes and damaged several components while building this keyboard. If you appreciate my work, please consider donating—even just $1 would help me recover from the losses. Thank you so much for your support!
 
 [BUY ME A COFFFEE](https://paypal.me/99001194)
 
