@@ -108,10 +108,10 @@
         default_layer {
             display-name = "Default Layer";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp Q      &kp W     &kp E     &kp R      &kp T      &kp Y      &kp U      &kp I      &kp O     &kp P
+&kp A      &kp S     &kp D     &kp F      &kp G      &kp H      &kp J      &kp K      &kp L     &kp SEMI
+&kp Z      &kp X     &kp C     &kp V      &kp B      &kp N      &kp M      &kp COMMA  &kp DOT   &kp FSLH
+&kp RSHFT  &kp LGUI  &kp LALT  &kp SPACE  &kp LCTRL  &kp LCTRL  &kp SPACE  &kp LALT   &kp LGUI  &kp ENTER
             >;
 
             sensor-bindings = <&Scroll_D_U>, <&Scroll_U_D>;
