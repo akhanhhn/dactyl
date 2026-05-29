@@ -103,7 +103,9 @@
     status = "okay";
 };
 
-
+zephyr_udc0: &usbd {
+    status = "okay";
+};
 
 
 
