@@ -44,61 +44,92 @@
 
 / {
     behaviors {
-        Scroll_D_U: Scroll_D_U {
-            compatible = "zmk,behavior-sensor-rotate";
-            label = "SCROLL_D_U";
-            #sensor-binding-cells = <0>;
-            bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
-
-            tap-ms = <20>;
-        };
-
-        TD01: TD01 {
+        laughing: laughing {
             compatible = "zmk,behavior-tap-dance";
-            label = "TD01";
+            label = "LAUGHING";
             #binding-cells = <0>;
-            bindings = <&kp MINUS>, <&kp PERIOD>;
+            bindings = <&hihi>, <&haha>;
         };
 
-        Scroll_U_D: Scroll_U_D {
-            compatible = "zmk,behavior-sensor-rotate";
-            label = "SCROLL_U_D";
-            #sensor-binding-cells = <0>;
-            bindings = <&msc SCRL_UP>, <&msc SCRL_DOWN>;
-
-            tap-ms = <20>;
+        https_http: https_http {
+            compatible = "zmk,behavior-tap-dance";
+            label = "HTTPS_HTTP";
+            #binding-cells = <0>;
+            bindings = <&https>, <&http>;
         };
 
-        Scroll_LR: Scroll_LR {
-            compatible = "zmk,behavior-sensor-rotate";
-            label = "SCROLL_LR";
-            #sensor-binding-cells = <0>;
-            bindings = <&msc SCRL_LEFT>, <&msc SCRL_RIGHT>;
-
-            tap-ms = <20>;
-        };
-
-        Scroll_RL: Scroll_RL {
-            compatible = "zmk,behavior-sensor-rotate";
-            label = "SCROLL_RL";
-            #sensor-binding-cells = <0>;
-            bindings = <&msc SCRL_RIGHT>, <&msc SCRL_LEFT>;
-
-            tap-ms = <20>;
+        haizzz_huhu: haizzz_huhu {
+            compatible = "zmk,behavior-tap-dance";
+            label = "HAIZZZ_HUHU";
+            #binding-cells = <0>;
+            bindings = <&haizzzz>, <&huhu>;
         };
     };
 
-    combos {
-        compatible = "zmk,combos";
+    combos { compatible = "zmk,combos"; };
 
-        boot {
-            bindings = <&bootloader>;
-            key-positions = <33 32 30>;
+    macros {
+        hihi: laughing {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp COLON &kp RPAR &kp RPAR &kp RPAR>;
+            label = "LAUGHING";
         };
 
-        boot2 {
-            bindings = <&bootloader>;
-            key-positions = <36 37 39>;
+        haha: haha {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp EQUAL &kp RPAR &kp RPAR &kp RPAR &kp RPAR &kp RPAR &kp RPAR &kp RPAR &kp RPAR>;
+            label = "HAHA";
+        };
+
+        yankinVim: yankinVim {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp DQT &kp PLUS &kp Y>;
+            label = "YANKINVIM";
+        };
+
+        https: https {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp H &kp T &kp T &kp P &kp S &kp COLON &kp FSLH &kp FSLH>;
+            label = "HTTPS";
+        };
+
+        http: http {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp H &kp T &kp T &kp P &kp COLON &kp FSLH &kp FSLH>;
+            label = "HTTP";
+        };
+
+        rightarrow: rightarrow {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp MINUS &kp GT>;
+            label = "RIGHTARROW";
+        };
+
+        haizzzz: haizzzz {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp EQUAL &kp DOT &kp EQUAL>;
+            label = "HAIZZZZ";
+        };
+
+        huhu: huhu {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp COLON &kp LPAR &kp LPAR &kp LPAR &kp LPAR>;
+            label = "HUHU";
+        };
+
+        leftarrow: leftarrow {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp LT &kp MINUS>;
+            label = "LEFTARROW";
         };
     };
 
@@ -108,24 +139,24 @@
         default_layer {
             display-name = "Default Layer";
             bindings = <
-&kp ESC    &kp N1     &kp N2    &kp N3    &kp N4     &kp N5    &kp N6    &kp N7     &kp N8     &kp N9    &kp N0     &kp MINUS
-&kp TAB    &kp Q      &kp W     &kp E     &kp R      &kp T     &kp Y     &kp U      &kp I      &kp O     &kp P      &kp LS(PLUS)
-&kp EQUAL  &kp A      &kp S     &kp D     &kp F      &kp G     &kp H     &kp J      &kp K      &kp L     &kp SEMI   &kp SQT
-&kp LSHFT  &kp Z      &kp X     &kp C     &kp V      &kp B     &kp N     &kp M      &kp COMMA  &kp DOT   &kp FSLH   &kp BSPC
-           &kp LCTRL  &kp LBKT  &kp RBKT  &kp SPACE  &kp LALT  &kp LALT  &kp SPACE  &kp LBKT   &kp RBKT  &kp LCTRL
+&kp ESC           &kp N1     &kp N2    &kp N3    &kp N4        &kp N5    &kp N6    &kp N7          &kp N8     &kp N9    &kp N0    &kp MINUS
+&kp TAB           &kp Q      &kp W     &kp E     &kp R         &kp T     &kp Y     &kp U           &kp I      &kp O     &kp P     &kp LS(PLUS)
+&kp ESCAPE        &kp A      &kp S     &kp D     &kp F         &kp G     &kp H     &kp J           &kp K      &kp L     &kp SEMI  &kp BACKSPACE
+&kp LEFT_CONTROL  &kp Z      &kp X     &kp C     &kp V         &kp B     &kp N     &kp M           &kp COMMA  &kp DOT   &kp FSLH  &kp LEFT_ALT
+                  &kp SPACE  &kp LBKT  &kp RBKT  &kp LEFT_GUI  &kp LALT  &kp LALT  &sk LEFT_SHIFT  &kp LBKT   &kp RBKT  &kp RET
             >;
 
-            sensor-bindings = <&Scroll_D_U>, <&Scroll_U_D>;
+            sensor-bindings = <&none>, <&none>;
         };
 
         lower_layer {
             display-name = "Lower Layer";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans                  &trans          &trans          &trans        &trans           &trans     &trans        &kp SLASH     &kp ASTERISK  &kp MINUS  &trans
+&trans  &kp LA(LC(LEFT_SHIFT))  &msc SCRL_LEFT  &msc SCRL_DOWN  &mmv MOVE_UP  &msc SCRL_RIGHT  &trans     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PLUS   &trans
+&trans  &trans                  &kp LEFT_ARROW  &kp DOWN        &kp UP_ARROW  &kp RIGHT        &trans     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans     &trans
+&trans  &kp PRINTSCREEN         &kp HOME        &kp PAGE_DOWN   &kp PG_UP     &kp END          &kp COMMA  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans     &trans
+        &trans                  &trans          &trans          &trans        &trans           &trans     &kp SPACE     &kp NUMBER_0  &kp DOT       &kp RET
             >;
 
             sensor-bindings =
@@ -136,11 +167,11 @@
         raise_layer {
             display-name = "Raise Layer";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans           &trans       &trans    &trans      &trans       &trans          &trans         &trans            &trans         &trans        &trans
+&trans  &kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT  &kp CARET       &kp AMPERSAND  &kp ASTERISK      &kp GRAVE      &trans        &trans
+&trans  &trans           &trans       &trans    &trans      &trans       &kp MINUS       &kp EQUAL      &kp SINGLE_QUOTE  &kp BACKSLASH  &trans        &trans
+&trans  &trans           &trans       &trans    &trans      &trans       &kp UNDERSCORE  &kp PLUS       &kp TILDE         &kp PIPE       &kp QUESTION  &kp LC(LA(DEL))
+        &trans           &trans       &trans    &trans      &trans       &trans          &trans         &trans            &trans         &trans
             >;
 
             sensor-bindings =
