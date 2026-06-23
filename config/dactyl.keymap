@@ -265,8 +265,6 @@
 &kp LEFT_CONTROL  &kp Z      &kp X      &kp C      &kp V         &kp B   &kp N   &kp M           &kp COMMA      &kp DOT     &kp FSLH  &kp LEFT_ALT
                   &kp SPACE  &kp LC(A)  &kp LC(C)  &kp LEFT_GUI  &mo 1   &mo 2   &sk LEFT_SHIFT  &kp BACKSPACE  &kp DELETE  &kp RET
             >;
-
-            sensor-bindings = <&none>, <&none>;
         };
 
         lower_layer {
