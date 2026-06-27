@@ -416,35 +416,52 @@ layers:
 combos:
 - p: [20, 19]
   k: (
+  l: [Default Layer, Lower Layer, Raise Layer]
 - p: [20, 21]
   k: )
+  l: [Default Layer, Lower Layer, Raise Layer]
 - p: [31, 32]
   k: {t: '[', s: '{'}
+  l: [Default Layer, Lower Layer, Raise Layer]
 - p: [32, 33]
   k: {t: ']', s: '}'}
+  l: [Default Layer, Lower Layer, Raise Layer]
 - p: [43, 44]
   k: '{'
+  l: [Default Layer, Lower Layer, Raise Layer]
 - p: [44, 45]
   k: '}'
+  l: [Default Layer, Lower Layer, Raise Layer]
 - p: [19, 21]
   k: '"'
+  l: [Default Layer, Lower Layer, Raise Layer]
 - p: [31, 33]
   k: <
+  l: [Default Layer, Lower Layer, Raise Layer]
 - p: [43, 45]
   k: '>'
+  l: [Default Layer, Lower Layer, Raise Layer]
 - p: [33, 34]
   k: ':'
+  l: [Default Layer, Lower Layer, Raise Layer]
 - p: [37, 38]
   k: {t: '$$mdi:backspace$$', type: backspace}
+  l: [Default Layer, Lower Layer, Raise Layer]
 - p: [38, 39]
   k: $$mdi:backspace-reverse-outline$$
+  l: [Default Layer, Lower Layer, Raise Layer]
 - p: [39, 40]
   k: $$mdi:apple-keyboard-shift$$
+  l: [Default Layer, Lower Layer, Raise Layer]
 - p: [28, 41]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
+  l: [Default Layer, Lower Layer, Raise Layer]
 - p: [28, 27]
   k: $$mdi:keyboard-tab$$
+  l: [Default Layer, Lower Layer, Raise Layer]
 - p: [17, 18]
   k: $$mdi:apple-keyboard-caps$$
+  l: [Default Layer, Lower Layer, Raise Layer]
 - p: [29, 30]
   k: $$mdi:alpha-w-box$$
+  l: [Default Layer, Lower Layer, Raise Layer]
