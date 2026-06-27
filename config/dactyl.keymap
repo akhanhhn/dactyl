@@ -98,86 +98,103 @@
         leftParenthesis {
             bindings = <&kp LEFT_PARENTHESIS>;
             key-positions = <20 19>;
+            layers = <0 1 2>;
         };
 
         rightParenthesis {
             bindings = <&kp RIGHT_PARENTHESIS>;
             key-positions = <20 21>;
+            layers = <0 1 2>;
         };
 
         leftBracket {
             bindings = <&kp LEFT_BRACKET>;
             key-positions = <31 32>;
+            layers = <0 1 2>;
         };
 
         rightBracket {
             bindings = <&kp RIGHT_BRACKET>;
             key-positions = <32 33>;
+            layers = <0 1 2>;
         };
 
         leftBrace {
             bindings = <&kp LEFT_BRACE>;
             key-positions = <43 44>;
+            layers = <0 1 2>;
         };
 
         rightBrace {
             bindings = <&kp RIGHT_BRACE>;
             key-positions = <44 45>;
+            layers = <0 1 2>;
         };
 
         doubleQuotes {
             bindings = <&kp DOUBLE_QUOTES>;
             key-positions = <19 21>;
+            layers = <0 1 2>;
         };
 
         lessThan {
             bindings = <&kp LESS_THAN>;
             key-positions = <31 33>;
+            layers = <0 1 2>;
         };
 
         greaterThan {
             bindings = <&kp GREATER_THAN>;
             key-positions = <43 45>;
+            layers = <0 1 2>;
         };
 
         colon {
             bindings = <&kp COLON>;
             key-positions = <33 34>;
+            layers = <0 1 2>;
         };
 
         backSpace {
             bindings = <&kp BACKSPACE>;
             key-positions = <37 38>;
+            layers = <0 1 2>;
         };
 
         delete {
             bindings = <&kp DELETE>;
             key-positions = <38 39>;
+            layers = <0 1 2>;
         };
 
         shift {
             bindings = <&kp LEFT_SHIFT>;
             key-positions = <39 40>;
+            layers = <0 1 2>;
         };
 
         return {
             bindings = <&kp RET>;
             key-positions = <28 41>;
+            layers = <0 1 2>;
         };
 
         tab {
             bindings = <&kp TAB>;
             key-positions = <28 27>;
+            layers = <0 1 2>;
         };
 
         capsLock {
             bindings = <&kp CAPSLOCK>;
             key-positions = <17 18>;
+            layers = <0 1 2>;
         };
 
         capsWords {
             bindings = <&caps_word>;
             key-positions = <29 30>;
+            layers = <0 1 2>;
         };
     };
 
