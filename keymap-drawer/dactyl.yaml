@@ -56,8 +56,8 @@ layers:
   - Lower Layer
   - Raise Layer
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:backspace-reverse-outline$$
+  - Ctl+Gui+$$mdi:arrow-left-bold$$
+  - Ctl+Gui+$$mdi:arrow-right-bold$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   Lower Layer:
   - {t: '$$mdi:transfer$$', type: trans}
