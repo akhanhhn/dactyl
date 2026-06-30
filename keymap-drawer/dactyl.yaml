@@ -13,7 +13,7 @@ layers:
   - {t: '9', s: (}
   - {t: '0', s: )}
   - '&layer4_ctrlShift'
-  - '&somthing_ctrlC'
+  - '&GUI_ctrlC'
   - Q
   - W
   - E
@@ -24,7 +24,7 @@ layers:
   - I
   - O
   - P
-  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
+  - $$mdi:apple-keyboard-shift$$
   - $$mdi:keyboard-esc$$
   - A
   - S
@@ -465,3 +465,5 @@ combos:
 - p: [29, 30]
   k: $$mdi:alpha-w-box$$
   l: [Default Layer, Lower Layer, Raise Layer]
+- p: [31, 34]
+  k: {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
