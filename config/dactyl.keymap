@@ -288,11 +288,11 @@
         default_layer {
             display-name = "Default Layer";
             bindings = <
-&layer3_ctrlV     &kp N1     &kp N2     &kp N3      &kp N4        &kp N5  &kp N6  &kp N7          &kp N8            &kp N9             &kp N0    &layer4_ctrlShift
-&GUI_ctrlC        &kp Q      &kp W      &kp E       &kp R         &kp T   &kp Y   &kp U           &kp I             &kp O              &kp P     &kp LEFT_SHIFT
-&kp ESCAPE        &kp A      &kp S      &kp D       &kp F         &kp G   &kp H   &kp J           &kp K             &kp L              &kp SEMI  &kp BACKSPACE
-&kp LEFT_CONTROL  &kp Z      &kp X      &kp C       &kp V         &kp B   &kp N   &kp M           &kp COMMA         &kp DOT            &kp FSLH  &kp LEFT_ALT
-                  &kp SPACE  &kp LC(A)  &kp ESCAPE  &kp LEFT_GUI  &mo 1   &mo 2   &sk LEFT_SHIFT  &kp LC(LG(LEFT))  &kp LC(LG(RIGHT))  &kp RET
+&layer3_ctrlV     &kp N1  &kp N2     &kp N3      &kp N4  &kp N5     &kp N6   &kp N7  &kp N8            &kp N9             &kp N0    &layer4_ctrlShift
+&GUI_ctrlC        &kp Q   &kp W      &kp E       &kp R   &kp T      &kp Y    &kp U   &kp I             &kp O              &kp P     &kp LEFT_SHIFT
+&kp ESCAPE        &kp A   &kp S      &kp D       &kp F   &kp G      &kp H    &kp J   &kp K             &kp L              &kp SEMI  &kp BACKSPACE
+&kp LEFT_CONTROL  &kp Z   &kp X      &kp C       &kp V   &kp B      &kp N    &kp M   &kp COMMA         &kp DOT            &kp FSLH  &kp LEFT_ALT
+                  &mo 3   &kp LC(A)  &kp ESCAPE  &mo 1   &kp SPACE  &kp RET  &mo 2   &kp LC(LG(LEFT))  &kp LC(LG(RIGHT))  &mo 4
             >;
         };
 
@@ -303,7 +303,7 @@
 &trans  &kp LA(LC(LEFT_SHIFT))  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &trans     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PLUS   &trans
 &trans  &trans                  &kp LEFT_ARROW  &kp DOWN        &kp UP_ARROW  &kp RIGHT        &trans     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans     &trans
 &trans  &kp PRINTSCREEN         &kp HOME        &kp PAGE_DOWN   &kp PG_UP     &kp END          &kp COMMA  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans     &trans
-        &trans                  &trans          &trans          &trans        &trans           &trans     &kp SPACE     &kp NUMBER_0  &kp DOT       &kp RET
+        &trans                  &trans          &trans          &trans        &trans           &kp RET    &kp SPACE     &kp NUMBER_0  &kp DOT       &trans
             >;
 
             sensor-bindings =
