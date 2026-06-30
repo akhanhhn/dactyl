@@ -84,11 +84,11 @@
             bindings = <&mo 4>, <&kp LC(LEFT_SHIFT)>;
         };
 
-        somthing_ctrlC: somthing_ctrlC {
+        GUI_ctrlC: GUI_ctrlC {
             compatible = "zmk,behavior-tap-dance";
-            label = "SOMTHING_CTRLC";
+            label = "GUI_CTRLC";
             #binding-cells = <0>;
-            bindings = <&none>, <&kp LC(C)>;
+            bindings = <&kp LEFT_GUI>, <&kp LC(C)>;
         };
     };
 
@@ -196,6 +196,11 @@
             key-positions = <29 30>;
             layers = <0 1 2>;
         };
+
+        stickyShift {
+            bindings = <&sk LEFT_SHIFT>;
+            key-positions = <31 34>;
+        };
     };
 
     macros {
@@ -284,7 +289,7 @@
             display-name = "Default Layer";
             bindings = <
 &layer3_ctrlV     &kp N1     &kp N2     &kp N3      &kp N4        &kp N5  &kp N6  &kp N7          &kp N8            &kp N9             &kp N0    &layer4_ctrlShift
-&somthing_ctrlC   &kp Q      &kp W      &kp E       &kp R         &kp T   &kp Y   &kp U           &kp I             &kp O              &kp P     &sk LEFT_SHIFT
+&GUI_ctrlC        &kp Q      &kp W      &kp E       &kp R         &kp T   &kp Y   &kp U           &kp I             &kp O              &kp P     &kp LEFT_SHIFT
 &kp ESCAPE        &kp A      &kp S      &kp D       &kp F         &kp G   &kp H   &kp J           &kp K             &kp L              &kp SEMI  &kp BACKSPACE
 &kp LEFT_CONTROL  &kp Z      &kp X      &kp C       &kp V         &kp B   &kp N   &kp M           &kp COMMA         &kp DOT            &kp FSLH  &kp LEFT_ALT
                   &kp SPACE  &kp LC(A)  &kp ESCAPE  &kp LEFT_GUI  &mo 1   &mo 2   &sk LEFT_SHIFT  &kp LC(LG(LEFT))  &kp LC(LG(RIGHT))  &kp RET
