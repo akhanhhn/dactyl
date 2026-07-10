@@ -13,7 +13,7 @@ layers:
   - {t: '9', s: (}
   - {t: '0', s: )}
   - '&layer4_ctrlShift'
-  - '&GUI_ctrlC'
+  - '&alt_ctrlC'
   - Q
   - W
   - E
@@ -24,7 +24,7 @@ layers:
   - I
   - O
   - P
-  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-option$$
   - $$mdi:keyboard-esc$$
   - A
   - S
@@ -48,10 +48,10 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-command$$
   - Ctl+A
-  - $$mdi:keyboard-esc$$
+  - $$mdi:backspace-reverse-outline$$
   - Lower Layer
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
@@ -154,7 +154,7 @@ layers:
   - {t: '''', s: '"'}
   - {t: \, s: '|'}
   - '&haizzz_huhu'
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Ctl+Alt+$$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -166,7 +166,7 @@ layers:
   - '~'
   - '|'
   - '?'
-  - Ctl+Alt+$$mdi:backspace-reverse-outline$$
+  - Gui+L
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -243,11 +243,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {h: '1', s: '$$mdi:bluetooth-connect$$'}
+  - {h: '2', s: '$$mdi:bluetooth-connect$$'}
+  - {h: '3', s: '$$mdi:bluetooth-connect$$'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - BT CLR ALL
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-scroll-wheel$$
