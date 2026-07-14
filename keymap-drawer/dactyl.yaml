@@ -154,7 +154,7 @@ layers:
   - {t: '''', s: '"'}
   - {t: \, s: '|'}
   - '&haizzz_huhu'
-  - Ctl+Alt+$$mdi:backspace-reverse-outline$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
