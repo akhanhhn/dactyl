@@ -459,10 +459,10 @@ combos:
 - p: [28, 27]
   k: $$mdi:keyboard-tab$$
   l: [Default Layer, Lower Layer, Raise Layer]
-- p: [17, 18]
+- p: [18, 19]
   k: $$mdi:apple-keyboard-caps$$
   l: [Default Layer, Lower Layer, Raise Layer]
-- p: [29, 30]
+- p: [30, 31]
   k: $$mdi:alpha-w-box$$
   l: [Default Layer, Lower Layer, Raise Layer]
 - p: [31, 34]
