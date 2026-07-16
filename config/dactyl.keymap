@@ -188,13 +188,13 @@
 
         capsLock {
             bindings = <&kp CAPSLOCK>;
-            key-positions = <17 18>;
+            key-positions = <18 19>;
             layers = <0 1 2>;
         };
 
         capsWords {
             bindings = <&caps_word>;
-            key-positions = <29 30>;
+            key-positions = <30 31>;
             layers = <0 1 2>;
         };
 
