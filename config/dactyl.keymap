@@ -297,7 +297,7 @@
             >;
         };
 
-        lower_layer {
+        numbers {
             display-name = "Lower Layer";
             bindings = <
 &trans  &trans                  &trans          &trans          &trans        &trans           &trans     &kp SLASH     &kp ASTERISK  &kp PERCENT   &kp MINUS  &trans
@@ -312,7 +312,7 @@
                 <&inc_dec_kp RIGHT LEFT>;
         };
 
-        raise_layer {
+        characters {
             display-name = "Raise Layer";
             bindings = <
 &trans  &trans           &trans       &trans       &trans      &trans       &trans          &trans         &trans            &trans         &trans        &trans
@@ -327,7 +327,7 @@
                 <&inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
 
-        layer_3 {
+        Fn {
             bindings = <
 &trans  &kp F1  &kp F2  &kp F3  &kp F4   &kp F5   &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &trans
 &trans  &trans  &trans  &trans  &kp F11  &kp F12  &trans  &trans  &trans  &trans  &trans   &trans
@@ -341,13 +341,13 @@
                 <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
 
-        layer_4 {
+        mouse {
             bindings = <
-&trans  &trans     &trans          &trans          &trans           &trans           &bt BT_SEL 0     &bt BT_SEL 1  &bt BT_SEL 2  &trans  &bt BT_CLR_ALL  &trans
-&trans  &mkp MCLK  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP     &msc SCRL_RIGHT  &kp C_VOLUME_UP  &trans        &trans        &trans  &trans          &trans
-&trans  &mkp MB5   &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &kp HOME         &kp C_VOL_DN     &mkp LCLK     &trans        &trans  &trans          &trans
-&trans  &mkp MB4   &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp END          &kp K_MUTE       &trans        &trans        &trans  &trans          &trans
-        &trans     &trans          &trans          &trans           &trans           &trans           &trans        &trans        &trans  &trans
+&trans  &bt BT_DISC 0  &bt BT_DISC 1   &bt BT_DISC 2   &trans           &trans           &bt BT_SEL 0     &bt BT_SEL 1  &bt BT_SEL 2  &trans  &bt BT_CLR_ALL  &trans
+&trans  &mkp MCLK      &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP     &msc SCRL_RIGHT  &kp C_VOLUME_UP  &trans        &trans        &trans  &trans          &trans
+&trans  &mkp MB5       &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &kp HOME         &kp C_VOL_DN     &mkp LCLK     &trans        &trans  &trans          &trans
+&trans  &mkp MB4       &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp END          &kp K_MUTE       &trans        &trans        &trans  &trans          &trans
+        &trans         &trans          &trans          &trans           &trans           &trans           &trans        &trans        &trans  &trans
             >;
         };
 
