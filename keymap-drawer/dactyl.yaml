@@ -452,7 +452,7 @@ combos:
   l: [Default Layer, Lower Layer, Raise Layer]
 - p: [39, 40]
   k: $$mdi:apple-keyboard-shift$$
-  l: [Default Layer, Lower Layer, Raise Layer]
+  l: [Default Layer]
 - p: [28, 41]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
   l: [Default Layer, Lower Layer, Raise Layer]
