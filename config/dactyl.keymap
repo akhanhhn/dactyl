@@ -171,7 +171,7 @@
         shift {
             bindings = <&kp LEFT_SHIFT>;
             key-positions = <39 40>;
-            layers = <0 1 2>;
+            layers = <0>;
         };
 
         return {
