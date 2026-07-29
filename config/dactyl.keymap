@@ -343,11 +343,11 @@
 
         mouse {
             bindings = <
-&trans  &bt BT_DISC 0  &bt BT_DISC 1   &bt BT_DISC 2   &trans           &trans           &bt BT_SEL 0     &bt BT_SEL 1  &bt BT_SEL 2  &trans  &bt BT_CLR_ALL  &trans
-&trans  &mkp MCLK      &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP     &msc SCRL_RIGHT  &kp C_VOLUME_UP  &trans        &trans        &trans  &trans          &trans
-&trans  &mkp MB5       &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &kp HOME         &kp C_VOL_DN     &mkp LCLK     &trans        &trans  &trans          &trans
-&trans  &mkp MB4       &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp END          &kp K_MUTE       &trans        &trans        &trans  &trans          &trans
-        &trans         &trans          &trans          &trans           &trans           &trans           &trans        &trans        &trans  &trans
+&trans  &bt BT_DISC 0  &bt BT_DISC 1   &bt BT_DISC 2   &bt BT_DISC 3    &bt BT_DISC 4    &bt BT_SEL 0     &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans
+&trans  &mkp MCLK      &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP     &msc SCRL_RIGHT  &kp C_VOLUME_UP  &trans        &trans        &trans        &trans        &trans
+&trans  &mkp MB5       &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &kp HOME         &kp C_VOL_DN     &mkp LCLK     &trans        &trans        &trans        &trans
+&trans  &mkp MB4       &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp END          &kp K_MUTE       &trans        &trans        &trans        &trans        &bt BT_CLR_ALL
+        &trans         &trans          &trans          &trans           &trans           &trans           &trans        &trans        &trans        &trans
             >;
         };
 
