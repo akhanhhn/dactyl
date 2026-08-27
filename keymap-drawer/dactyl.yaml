@@ -55,7 +55,7 @@ layers:
   - Lower Layer
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - Raise Layer
+  - {t: '$$mdi:apple-keyboard-shift$$', h: Raise Layer}
   - Ctl+Gui+$$mdi:arrow-left-bold$$
   - Ctl+Gui+$$mdi:arrow-right-bold$$
   - $$mdi:apple-keyboard-shift$$
