@@ -55,10 +55,10 @@ layers:
   - Lower Layer
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:apple-keyboard-shift$$', h: Raise Layer}
+  - Raise Layer
   - Ctl+Gui+$$mdi:arrow-left-bold$$
   - Ctl+Gui+$$mdi:arrow-right-bold$$
-  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
   Lower Layer:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
